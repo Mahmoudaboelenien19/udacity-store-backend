@@ -43,7 +43,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 #### Orders
 - id `SERIAL PRIMARY KEY`
--status `varchar` (active or complete)
+- status `varchar` (active or complete)
 - quantity `integer`
 - product_id `uuid REFERENCES products(id)`
 - user_id `uuid REFERENCES users(id)`
