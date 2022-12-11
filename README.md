@@ -54,7 +54,8 @@ npm i
 ### User API Testing
  By using postman Or Thunder Client VScode Extension 
 - to create new user 
-(http://localhost:3000/user)
+
+the used method  `POST` via  (http://localhost:3000/user)
 inside body you must fill \
 {    `  "first":"your first name"        `\
  `   "last":"your last name"        `\
@@ -63,17 +64,17 @@ inside body you must fill \
 
 - then you will get a token to make you able to 
 1- show all users 
-(http://localhost:3000/users)
+the used method  `GET` via (http://localhost:3000/users)
 
 2-  show specific user by his id 
-(http://localhost:3000/user/:id)
+the used method  `GET` via (http://localhost:3000/user/:id)
 
 
 3-  update specific user by his id 
-(http://localhost:3000/user/:id)
+the used method  `PATCH` via (http://localhost:3000/user/:id)
 
-4-  delete specific user by his id 
-(http://localhost:3000/user/:id)
+4-  delete specific user by his id
+the used method  `DELETE` via (http://localhost:3000/user/:id)
 
 
 
@@ -81,7 +82,7 @@ inside body you must fill \
  By using postman Or Thunder Client VScode Extension 
 - to create new product you must be authorized 
 then use this :
-(http://localhost:3000/product)
+the used method  `Post` via (http://localhost:3000/product)
 inside body you must fill \
 {                              
   `  "name":"your product name"  `\
@@ -90,24 +91,22 @@ inside body you must fill \
 }`
 
 1- show all products 
-- you can be unauthorized
 
-(http://localhost:3000/products)
+- you can be unauthorized
+the used method  `GET` via (http://localhost:3000/products)
 
 2-  show specific product by its id 
 - you can be unauthorized
-
-(http://localhost:3000/product/:id)
+the used method  `GET` via (http://localhost:3000/product/:id)
 
 3-  update specific product by its id 
 - you must be authorized
-
+the used method  `PATCH`
 (http://localhost:3000/product/:id)
 
 4-  delete specific product by its id
 - you must be authorized
-
-(http://localhost:3000/product/:id)
+the used method  `DELETE` via (http://localhost:3000/product/:id)
 
 
 
@@ -115,7 +114,8 @@ inside body you must fill \
  By using postman Or Thunder Client VScode Extension 
 - to create new order you must be authorized 
 then use this :
-(http://localhost:3000/product)
+the used method  `POST` via (http://localhost:3000/order)
+
 inside body you must fill \
 {                             
   `  "status": "active or complete",         `\
@@ -128,19 +128,17 @@ inside body you must fill \
 1- show all products 
 - you must be authorized
 
-(http://localhost:3000/orders)
+the used method  `GET` via (http://localhost:3000/orders)
 
 2-  show specific order by its id 
 - you must be authorized
-
-(http://localhost:3000/order/:id)
+the used method  `GET` via (http://localhost:3000/order/:id)
 
 3-  update specific order by its id 
 - you must be authorized
 
-(http://localhost:3000/order/:id)
+the used method  `PATCH` via  (http://localhost:3000/order/:id)
 
 4-  delete specific order by its id
 - you must be authorized
-
-(http://localhost:3000/order/:id)
+the used method  `DELETE` via  (http://localhost:3000/order/:id)
