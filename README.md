@@ -55,11 +55,11 @@ npm i
  By using postman Or Thunder Client VScode Extension 
 - to create new user 
 (http://localhost:3000/user)
-inside body you must fill 
-`{                                  `  `  "first":"your first name"        `
- `   "last":"your last name"        `
- `   "password":"your password"     `
-}`
+inside body you must fill \
+`{                                  `  `  "first":"your first name"        `\
+ `   "last":"your last name"        `\
+ `   "password":"your password"     `\
+}`\
 - then you will get a token to make you able to 
 1- show all users 
 (http://localhost:3000/users)
