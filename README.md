@@ -82,10 +82,10 @@ inside body you must fill \
 then use this :
 (http://localhost:3000/product)
 inside body you must fill \
-`{                      \        `
+`{                              `
   `  "name":"your product name"  `\
  `   "price":"your product price" `\
- `   "category":"its category"     `\
+ `   "category":"its category"    `\
 }`
 
 1- show all products 
@@ -116,7 +116,7 @@ inside body you must fill \
 then use this :
 (http://localhost:3000/product)
 inside body you must fill \
-`{                    \          `
+`{                             `
   `  "status": "active or complete",         `\
  `   "quantity":what quantity  you want       `\
  `   "product_id":"id of product you want"     `\
