@@ -24,7 +24,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 #### Orders
 - Index '/orders' via `GET` [token required]
 - Show '/order/:id' via `GET`[token required]
-- Create '/order' via `POST`
+- Create '/order' via `POST` [token required]
 - update '/order/:id' via `PATCH`[token required]
 - delete '/order/:id' via `DELETE`[token required]
 
