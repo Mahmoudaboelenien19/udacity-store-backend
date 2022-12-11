@@ -56,10 +56,10 @@ npm i
 - to create new user 
 (http://localhost:3000/user)
 inside body you must fill \
-`{                                  `  `  "first":"your first name"        `\
+`{           \                       `  `  "first":"your first name"        `\
  `   "last":"your last name"        `\
  `   "password":"your password"     `\
-}`\
+}`
 - then you will get a token to make you able to 
 1- show all users 
 (http://localhost:3000/users)
@@ -81,11 +81,11 @@ inside body you must fill \
 - to create new product you must be authorized 
 then use this :
 (http://localhost:3000/product)
-inside body you must fill 
-`{                              `
-  `  "name":"your product name"  `
- `   "price":"your product price"       `
- `   "category":"its category"     `
+inside body you must fill \
+`{                      \        `
+  `  "name":"your product name"  `\
+ `   "price":"your product price" `\
+ `   "category":"its category"     `\
 }`
 
 1- show all products 
@@ -115,13 +115,12 @@ inside body you must fill
 - to create new order you must be authorized 
 then use this :
 (http://localhost:3000/product)
-inside body you must fill 
-`{                              `
-  `  "status": "active or complete",         `
- `   "quantity":what quantity  you want       `
- `   "product_id":"id of product you want"     `
-  
-  ` "user_id":"your id"                                `
+inside body you must fill \
+`{                    \          `
+  `  "status": "active or complete",         `\
+ `   "quantity":what quantity  you want       `\
+ `   "product_id":"id of product you want"     `\
+ ` "user_id":"your id"                       `\
 
 `}`
 
