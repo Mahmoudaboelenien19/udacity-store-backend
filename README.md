@@ -56,7 +56,7 @@ npm i
 - to create new user 
 (http://localhost:3000/user)
 inside body you must fill \
-{                                `  `  "first":"your first name"        `\
+{    `  "first":"your first name"        `\
  `   "last":"your last name"        `\
  `   "password":"your password"     `\
 }
@@ -121,7 +121,7 @@ inside body you must fill \
   `  "status": "active or complete",         `\
  `   "quantity":what quantity  you want       `\
  `   "product_id":"id of product you want"     `\
- ` "user_id":"your id"                       `\
+ ` "user_id":"your id"                       `
 
 }
 
